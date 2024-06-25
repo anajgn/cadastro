@@ -2,17 +2,32 @@
 <html lang="pt-BR"> 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" contet="width=device-width, initial-cale=1.0">
-        <title>Cadastro</title>
+        <title>Document</title>
+        <style>
+            table,tr,th{
+                border: 1px solid black;
+            }
+        </style>
+        </html>
     </head>
-    <body>
-        <main>
-            <section class="form-container">
-                <h2>Dados de Login</h2>
-                <form action="#">
-                    <div class="input-group">
-                    </div>
-                </form>
-            </section>
-        </main>
-    </body>
+<table>
+    <tr>
+        <th>nome</th>
+        <th>rg</th>
+        <th>cnh</th>
+    </tr>
+</table>
+</body>
+<body>
+    <main>
+        <section class="form-container">
+            <h2>dados de login</h2>
+            <form action="#">
+                <div class="input-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="digite seu CPF" required>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
